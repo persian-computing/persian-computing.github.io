@@ -4,7 +4,7 @@ This is a new home for the [Persian Computing Community](http://persian-computin
 
 The repository hosts binary (e.g. images and PDF documents) and computer-friendly text files
 (like source code and mapping tables), whilc [the
-wiki](https://persian-computing.github.io/persian-computing/wiki/Home.html) hosts human-friendly
+wiki](https://persian-computing.github.io/persian-computing/wiki/) hosts human-friendly
 content, authored by community members.
 
 ----
