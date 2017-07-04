@@ -3,9 +3,8 @@
 This is a new home for the [Persian-Computing Community](http://persian-computing.org/).
 
 The repository hosts binary (e.g. images and PDF documents) and computer-friendly text files
-(like source code and mapping tables), whilc [the
-wiki](wiki/Home.html) hosts human-friendly content,
-authored by community members.
+(like source code and mapping tables), whilc [the wiki](wiki/Home.html) hosts human-friendly
+content, authored by community members.
 
 ----
 
