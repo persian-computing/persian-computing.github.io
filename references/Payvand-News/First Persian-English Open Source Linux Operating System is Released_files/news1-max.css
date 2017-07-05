@@ -1,0 +1,12 @@
+
+body {
+  font-size: 13px;
+}
+
+.small {
+  font-size: 14px; /* 75% of the baseline */
+}
+.large {
+  font-size: 28px; /* 125% of the baseline */
+}
+

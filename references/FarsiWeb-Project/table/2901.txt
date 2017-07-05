@@ -1,0 +1,152 @@
+#
+#       Name:             ISIRI 2901:1994 to ISIRI 3342:1993
+#       Table version:    1.1
+#       Date:             29 July 2002
+#       Author:           Roozbeh Pournader <roozbeh@sharif.edu>
+#
+#       Copyright (c) 1999, 2002 Roozbeh Pournader. All Rights reserved.
+#
+#       General notes:
+#
+#       This table contains the data on how ISIRI 2901:1994 keyboard
+#       layout is.
+#
+#       Format:  Two columns
+#                Column #1 is the ASCII character on standard American
+#                   QWERTY keyboards (in quotes, as in 'C')
+#                Column #2 is the ISIRI 3342 character code (in hex
+#                   as in 0xAB)
+#
+#       The entries in ASCII order of the corresponding characters
+#       on US keyboards.
+#
+#       For any comments or problems, contact <roozbeh@sharif.edu>.
+#
+#       Changes from version 1.0:
+#          Minor documentation changes.
+#
+#       Notes:
+#
+#       1. There exists an older ISIRI 2901 standard dated 1988 that went
+#       obsolete when the new version got published. I don't have any copy
+#       of the old standard, but I can provide a table if I find one.
+#
+#       2. Since mapping from the ISIRI 2901 to Unicode directly
+#       may inherit some of the ambiguities of converting ISIRI 3342 to
+#       Unicode, a mapping to ISIRI 3342 and then to Unicode is recommended.
+#       So one can change his ISIRI 3342 to Unicode table, without a need to
+#       change this table.
+#       
+#       It's worthy to note here that this table is completely compliant
+#       in the sense that the semantics of the typed character on the
+#       ISIRI 2901 are exactly the same as ISIRI 3342.
+#       
+#       Mapping tables from ISIRI 3342 and other Iranian character sets to
+#       Unicode is available from
+#
+#               http://www.farsiweb.info/
+#
+#       3. Sometimes the third column is marked <FREE> indicating that
+#       the space is not used currently but may probably be used in
+#       later versions of the standard.
+#
+#       4. It is mentioned in the standard that the combination of
+#       SHIFT KEY and SPACE BAR should produce a PSP character (0xA1).
+#       (This character is known as U+200C, ZERO WIDTH NON-JOINER in the
+#       Unicode standard.)
+#
+' '     0xA0
+'!'     0xA3
+'"'     0xBB
+'#'     0xAE
+'$'     0xA4
+'%'     0xA5
+'&'     0xAC
+'''     0xDB
+'('     0xA8
+')'     0xA9
+'*'     0xE8
+'+'     0xAB
+','     0xDF
+'-'     0xAD
+'.'     0xA6
+'/'     0xAF
+'0'     0xB0
+'1'     0xB1
+'2'     0xB2
+'3'     0xB3
+'4'     0xB4
+'5'     0xB5
+'6'     0xB6
+'7'     0xB7
+'8'     0xB8
+'9'     0xB9
+':'     0xBA
+';'     0xDA
+'<'     0xBE
+'='     0xBD
+'>'     0xBC
+'?'     0xBF
+'@'     0xA7
+'A'     0xF9
+'B'     0xA1
+'C'     0xCF
+'D'     0xFE
+'E'     0xF4
+'F'     0xFA
+'G'     0xF8
+'H'     0xC0
+'I'     0xF6
+'J'     0xFC
+'K'     0xE6
+'L'     0xE7
+'M'     0xC2
+'N'     <FREE>
+'O'     0xE2
+'P'     0xE3
+'Q'     0xF7
+'R'     0xF3
+'S'     0xFB
+'T'     0xF2
+'U'     0xF0
+'V'     <FREE>
+'W'     0xF5
+'X'     <FREE>
+'Y'     0xF1
+'Z'     0xFD
+'['     0xC7
+'\'     0xEB
+']'     0xC8
+'^'     0xAA
+'_'     0xE9
+'`'     0xA2
+'a'     0xD1
+'b'     0xCC
+'c'     0xCE
+'d'     0xE1
+'e'     0xC6
+'f'     0xC3
+'g'     0xDC
+'h'     0xC1
+'i'     0xE0
+'j'     0xC5
+'k'     0xDE
+'l'     0xDD
+'m'     0xC4
+'n'     0xCB
+'o'     0xCA
+'p'     0xC9
+'q'     0xD3
+'r'     0xD9
+'s'     0xD0
+'t'     0xD8
+'u'     0xD6
+'v'     0xCD
+'w'     0xD2
+'x'     0xD4
+'y'     0xD7
+'z'     0xD5
+'{'     0xE4
+'|'     0xEA
+'}'     0xE5
+'~'     <FREE>

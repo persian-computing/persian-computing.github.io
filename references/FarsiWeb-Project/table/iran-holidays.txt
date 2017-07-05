@@ -1,0 +1,64 @@
+#       Name:             List of Iranian Official holidays
+#       Table version:    1.0
+#       Date:             28 March 2003
+#       Author:           Roozbeh Pournader <roozbeh@sharif.edu>
+#
+#       Copyright (c) 2003 Roozbeh Pournader. All Rights reserved.
+#
+#       General notes:
+#
+#       This table contains the list of Iranian official holidays.
+#
+#       Format:  Two columns
+#                Column #1 specifies which calendar is used for the holiday,
+#                   'S' for Solar Islamic (Hejri-e Shamsi) and 'L' for
+#                   Lunar Islamic (Hejri-e Ghamari).
+#                Column #2 is the date in the MM/DD format, first the
+#                   month number and then the day number, zero-padded to two
+#                   digits.
+#
+#       The entries are sorted, first based on the calendar used, and then
+#       based on the month and day numbers.
+#
+#       For any comments or problems, contact <roozbeh@sharif.edu>.
+#
+#       Notes:
+#
+#       1. Fridays are holidays in every week of the year.
+#
+#       2. The official authority for computing calendars and specifying the
+#       number of days in a month and/or year in the Geophysics Institute of
+#       Tehran University. The official algorithms used are currently
+#       secret and not known to the public.
+#
+#       3. The latest version of this file, together with a (best to our
+#       knowledge) library for conversion of Gregorian dates to and from
+#       Solar Islamic dates name Jalali, could be found at:
+#
+#                http://www.farsiweb.info/
+#
+S 01/01 # Nowrooz
+S 01/02 # Nowrooz
+S 01/03 # Nowrooz
+S 01/04 # Nowrooz
+S 01/12 # Islamic Republic Day
+S 01/13 # Nature Day
+S 03/14 # Demise of Imam Khomeini
+S 03/15 # Revolt of 15 Khordad
+S 11/22 # Victory of Revolution of Iran
+S 12/29 # Nationalization of Oil Industry
+L 01/09 # Tasu'a of Imam Hussain
+L 01/10 # Ashura of Imam Hussain
+L 02/20 # Arba'in of Imam Hussain
+L 02/28 # Demise of Prophet Muhammad and Martyrdom of Imam Hassan (Mujtaba)
+L 02/29 # Martyrdom of Imam Reza
+L 03/17 # Birth of Prophet Muhammad and Imam Jafar
+L 06/03 # Martyrdom of Fatima
+L 07/13 # Birth of Imam Ali
+L 07/27 # Mission of Prophet Muhammad
+L 08/15 # Birth of Imam Mahdi
+L 09/21 # Martyrdom of Imam Ali
+L 10/01 # Eid of Fitr
+L 10/25 # Martyrdom of Imam Jafar
+L 12/10 # Eid of Adha (Ghurban)
+L 12/18 # Eid of Ghadeer

@@ -1,0 +1,137 @@
+#
+#       Name:             ISIRI 2901:1994 to Unicode
+#	Unicode version:  3.2
+#       Table version:    1.0
+#       Date:             29 July 2002
+#       Author:           Roozbeh Pournader <roozbeh@sharif.edu>
+#
+#       Copyright (c) 2002 Roozbeh Pournader. All Rights reserved.
+#
+#       General notes:
+#
+#       This table contains the data on how ISIRI 2901:1994 keyboard
+#       layout is.
+#
+#       Format:  Two columns
+#                Column #1 is the ASCII character on standard American
+#                   QWERTY keyboards (in quotes, as in 'C')
+#                Column #2 is the ISIRI Unicode character code (in hex
+#                   as in 0xABCD)
+#
+#       The entries in ASCII order of the corresponding characters
+#       on US keyboards.
+#
+#       For any comments or problems, contact <roozbeh@sharif.edu>.
+#
+#	Latest version can be fetched from:
+#
+#		http://www.farsiweb.info/
+#
+#       Notes:
+#
+#       1. There exists an older ISIRI 2901 standard dated 1988 that went
+#       obsolete when the new version got published. I don't have any copy
+#       of the old standard, but I can provide a table if I find one.
+#
+#       2. Sometimes the third column is marked <FREE> indicating that
+#       the space is not used currently but may probably be used in
+#       later versions of the standard.
+#
+#       3. The combination of SHIFT KEY and SPACE BAR should produce a ZERO
+#	WIDTH NON-JOINER character (U+200C).
+#
+' '	0x0020
+'!'	0x0021
+'"'	0x061B
+'#'	0x066B
+'$'	0xFDFC
+'%'	0x066A
+'&'	0x060C
+'''	0x06AF
+'('	0x0029
+')'	0x0028
+'*'	0x002A
+'+'	0x002B
+','	0x0648
+'-'	0x002D
+'.'	0x002E
+'/'	0x002F
+'0'	0x06F0
+'1'	0x06F1
+'2'	0x06F2
+'3'	0x06F3
+'4'	0x06F4
+'5'	0x06F5
+'6'	0x06F6
+'7'	0x06F7
+'8'	0x06F8
+'9'	0x06F9
+':'	0x003A
+';'	0x06A9
+'<'	0x003E
+'='	0x003D
+'>'	0x003C
+'?'	0x061F
+'@'	0x066C
+'A'	0x0624
+'B'	0x200C
+'C'	0x0698
+'D'	0x064A
+'E'	0x064D
+'F'	0x0625
+'G'	0x0623
+'H'	0x0622
+'I'	0x0651
+'J'	0x0629
+'K'	0x00BB
+'L'	0x00AB
+'M'	0x0621
+'N'	<FREE>
+'O'	0x005D
+'P'	0x005B
+'Q'	0x0652
+'R'	0x064B
+'S'	0x0626
+'T'	0x064F
+'U'	0x064E
+'V'	<FREE>
+'W'	0x064C
+'X'	<FREE>
+'Y'	0x0650
+'Z'	0x0643
+'['	0x062C
+'\'	0x005C
+']'	0x0686
+'^'	0x00D7
+'_'	0x0640
+'`'	0x200D
+'a'	0x0634
+'b'	0x0630
+'c'	0x0632
+'d'	0x06CC
+'e'	0x062B
+'f'	0x0628
+'g'	0x0644
+'h'	0x0627
+'i'	0x0647
+'j'	0x062A
+'k'	0x0646
+'l'	0x0645
+'m'	0x067E
+'n'	0x062F
+'o'	0x062E
+'p'	0x062D
+'q'	0x0636
+'r'	0x0642
+'s'	0x0633
+'t'	0x0641
+'u'	0x0639
+'v'	0x0631
+'w'	0x0635
+'x'	0x0637
+'y'	0x063A
+'z'	0x0638
+'{'	0x007D
+'|'	0x007C
+'}'	0x007B
+'~'	<FREE>

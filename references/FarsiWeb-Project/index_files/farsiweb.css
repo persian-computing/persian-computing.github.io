@@ -1,0 +1,85 @@
+BODY {
+ color: black;
+ background-color: white;
+ font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+A {
+ text-decoration: none;
+}
+
+A:hover {
+ color: #0000ff;
+ text-decoration: underline;
+}
+
+
+A.menu {
+ text-decoration: none;
+}
+
+A.menu:hover {
+ background: #ffc800;
+ color: #000000;
+ text-decoration: none;
+}
+
+.filename {
+ font-family: monospace;
+}
+
+  h1 {
+    text-align: center; margin-bottom: 40px; line-height: 120%;
+    font-size: 20pt;
+  }
+
+  h2 {
+    margin-top: 30px;
+  }
+
+  a { text-decoration: underline; font-weight: bold }
+  a:hover { text-decoration: underline; color: red; }
+  body, td { font-size: 90% }
+  body{
+    color: black; background: #ffa500;
+    font-size: 11pt;
+  }
+  #main{
+    line-height: 130%;
+    padding: 2em 5%;
+    color: black; background: #fffbf0;
+    left: 5%; right: 5%;
+    top: 0;
+  }
+@media screen {
+  #main {
+    position: absolute;
+  }
+}
+  .warning {
+    color: red;
+    font-weight: bold;
+  }
+  .note {
+    font-style: italic;
+  }
+  li {
+    margin-top: 0.2em;
+    padding-top: 0.2em;
+  }
+  .copyright {
+    font-size: 60%;
+    line-height: 160%;
+  }
+  .top {
+    vertical-align: top;
+  }
+  
+/*
+     FILE ARCHIVED ON 02:07:31 Jun 07, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:41:07 Jul 05, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

@@ -1,0 +1,171 @@
+#
+#	Name:             ISIRI 2900 (1989) to Unicode
+#	Unicode version:  3.2
+#	Table version:    1.0
+#	Date:             28 January 2002
+#	Author:           Roozbeh Pournader <roozbeh@sharif.edu>
+#
+#	Copyright (c) 1999, 2002 Roozbeh Pournader. All Rights reserved.
+#
+#	General notes:
+#
+#	This table contains the data on how ISIRI 2900 (1989) characters
+#       map into Unicode.
+#
+#	Format:  Three tab-separated columns
+#		 Column #1 is the ISIRI 2900 code (in hex as 0xXX)
+#		 Column #2 is the Unicode (in hex as 0xXXXX),
+#			plus additional formatting codes
+#		 Column #3 the Unicode name (follows a comment sign, '#')
+#
+#	The entries are in ISIRI 2900 order.
+#
+#	Any comments or problems, contact <roozbeh@sharif.edu>.
+#
+#	Notes:
+#
+#	1. ISIRI 2900 is really a 7 bit standard, so it assigns the characters
+#	in the range 0x00 to 0x7F.  It is noted in the standard that in
+#	an 8 bit environment these should be transfered to the 0x80 to 0xFF
+#	range.
+#	
+#	2. There is no mention of the bidi behaviour of the characters in
+#	standard.
+#
+#	3. Since there are two codes per character in most cases: one for
+#	initial and medial forms, and one for final and isolated forms,
+#	I have added two tags after the letters: <ZWJ> and <ZWNJ>.
+#       Their use means that a ZERO WIDTH JOINER (0x200D) or a ZERO WIDTH
+#	NON JOINER (0x200C) should be added after the character if the
+#	character is not followed by a right-join causing character, or
+#       a non-joining character respectively (in the manner of The Unicode
+#	Standard Version 2.0, pages 6-24 and 6-25). In an informal way,
+#	they should be added if only there is a need.
+#
+0x00	0x0000	#	<control>
+0x01	0x0001	#	<control>
+0x02	0x0002	#	<control>
+0x03	0x0003	#	<control>
+0x04	0x0004	#	<control>
+0x05	0x0005	#	<control>
+0x06	0x0006	#	<control>
+0x07	0x0007	#	<control>
+0x08	0x0008	#	<control>
+0x09	0x0009	#	<control>
+0x0A	0x000A	#	<control>
+0x0B	0x000B	#	<control>
+0x0C	0x000C	#	<control>
+0x0D	0x000D	#	<control>
+0x0E	0x000E	#	<control>
+0x0F	0x000F	#	<control>
+0x10	0x0010	#	<control>
+0x11	0x0011	#	<control>
+0x12	0x0012	#	<control>
+0x13	0x0013	#	<control>
+0x14	0x0014	#	<control>
+0x15	0x0015	#	<control>
+0x16	0x0016	#	<control>
+0x17	0x0017	#	<control>
+0x18	0x0018	#	<control>
+0x19	0x0019	#	<control>
+0x1A	0x001A	#	<control>
+0x1B	0x001B	#	<control>
+0x1C	0x001C	#	<control>
+0x1D	0x001D	#	<control>
+0x1E	0x001E	#	<control>
+0x1F	0x001F	#	<control>
+0x20	0x0020	#	SPACE
+0x21	0x0021  #	EXCLAMATION MARK
+0x22	0x0022  #	QUOTATION MARK
+0x23	0x003D  #	EQUALS SIGN
+0x24	0xFDFC  #	RIAL SIGN
+0x25	0x066A  #	ARABIC PERCENT SIGN
+0x26	0x003A  #	COLON
+0x27	0x061F	#	ARABIC QUESTION MARK
+0x28	0x0029	#	RIGHT PARENTHESIS
+0x29	0x0028	#	LEFT PARENTHESIS
+0x2A	0x00D7	#	MULTIPLICATION SIGN
+0x2B	0x002B	#	PLUS SIGN
+0x2C	0x060C	#	ARABIC COMMA
+0x2D	0x002D	#	HYPHEN-MINUS
+0x2E	0x002E	#	FULL STOP
+0x2F	0x066B	#	ARABIC DECIMAL SEPARATOR
+0x30	0x06F0	#	EXTENDED ARABIC-INDIC DIGIT ZERO
+0x31	0x06F1	#	EXTENDED ARABIC-INDIC DIGIT ONE
+0x32	0x06F2	#	EXTENDED ARABIC-INDIC DIGIT TWO
+0x33	0x06F3	#	EXTENDED ARABIC-INDIC DIGIT THREE
+0x34	0x06F4	#	EXTENDED ARABIC-INDIC DIGIT FOUR
+0x35	0x06F5	#	EXTENDED ARABIC-INDIC DIGIT FIVE
+0x36	0x06F6	#	EXTENDED ARABIC-INDIC DIGIT SIX
+0x37	0x06F7	#	EXTENDED ARABIC-INDIC DIGIT SEVEN
+0x38	0x06F8	#	EXTENDED ARABIC-INDIC DIGIT EIGHT
+0x39	0x06F9	#	EXTENDED ARABIC-INDIC DIGIT NINE
+0x3A	0x0622	#	ARABIC LETTER ALEF WITH MADDA ABOVE
+0x3B	0x0627	#	ARABIC LETTER ALEF
+0x3C	0x0621	#	ARABIC LETTER HAMZA
+0x3D	0x0623	#	ARABIC LETTER ALEF WITH HAMZA ABOVE
+0x3E	0x0624	#	ARABIC LETTER WAW WITH HAMZA ABOVE
+0x3F	0x0626+<ZWJ>	#	ARABIC LETTER YEH WITH HAMZA ABOVE, initial-medial form
+0x40	0x0628+<ZWJ>	#	ARABIC LETTER BEH, initial-medial form
+0x41	0x0628+<ZWNJ>	#	ARABIC LETTER BEH, final-isolated form
+0x42	0x067E+<ZWJ>	#	ARABIC LETTER PEH, initial-medial form
+0x43	0x067E+<ZWNJ>	#	ARABIC LETTER PEH, final-isolated form
+0x44	0x062A+<ZWJ>	#	ARABIC LETTER TEH, initial-medial form
+0x45	0x062A+<ZWNJ>	#	ARABIC LETTER TEH, final-isolated form
+0x46	0x062B+<ZWJ>	#	ARABIC LETTER THEH, initial-medial form
+0x47	0x062B+<ZWNJ>	#	ARABIC LETTER THEH, final-isolated form
+0x48	0x062C+<ZWJ>	#	ARABIC LETTER JEEM, initial-medial form
+0x49	0x062C+<ZWNJ>	#	ARABIC LETTER JEEM, final-isolated form
+0x4A	0x0686+<ZWJ>	#	ARABIC LETTER TCHEH, initial-medial form
+0x4B	0x0686+<ZWNJ>	#	ARABIC LETTER TCHEH, final-isolated form
+0x4C	0x062D+<ZWJ>	#	ARABIC LETTER HAH, initial-medial form
+0x4D	0x062D+<ZWNJ>	#	ARABIC LETTER HAH, final-isolated form
+0x4E	0x062E+<ZWJ>	#	ARABIC LETTER KHAH, initial-medial form
+0x4F	0x062E+<ZWNJ>	#	ARABIC LETTER KHAH, final-isolated form
+0x50	0x062F+<ZWJ>	#	ARABIC LETTER DAL, initial-medial form
+0x51	0x062F+<ZWNJ>	#	ARABIC LETTER DAL, final-isolated form
+0x52	0x0630+<ZWJ>	#	ARABIC LETTER THAL, initial-medial form
+0x53	0x0630+<ZWNJ>	#	ARABIC LETTER THAL, final-isolated form
+0x54	0x0631+<ZWJ>	#	ARABIC LETTER REH, initial-medial form
+0x55	0x0631+<ZWNJ>	#	ARABIC LETTER REH, final-isolated form
+0x56	0x0632+<ZWJ>	#	ARABIC LETTER ZAIN, initial-medial form
+0x57	0x0632+<ZWNJ>	#	ARABIC LETTER ZAIN, final-isolated form
+0x58	0x0698+<ZWJ>	#	ARABIC LETTER JEH, initial-medial form
+0x59	0x0698+<ZWNJ>	#	ARABIC LETTER JEH, final-isolated form
+0x5A	0x0633+<ZWJ>	#	ARABIC LETTER SEEN, initial-medial form
+0x5B	0x0633+<ZWNJ>	#	ARABIC LETTER SEEN, final-isolated form
+0x5C	0x0634+<ZWJ>	#	ARABIC LETTER SHEEN, initial-medial form
+0x5D	0x0634+<ZWNJ>	#	ARABIC LETTER SHEEN, final-isolated form
+0x5E	0x0635+<ZWJ>	#	ARABIC LETTER SAD, initial-medial form
+0x5F	0x0635+<ZWNJ>	#	ARABIC LETTER SAD, final-isolated form
+0x60	0x0636+<ZWJ>	#	ARABIC LETTER DAD, initial-medial form
+0x61	0x0636+<ZWNJ>	#	ARABIC LETTER DAD, final-isolated form
+0x62	0x0637+<ZWJ>	#	ARABIC LETTER TAH, initial-medial form
+0x63	0x0637+<ZWNJ>	#	ARABIC LETTER TAH, final-isolated form
+0x64	0x0638+<ZWJ>	#	ARABIC LETTER ZAH, initial-medial form
+0x65	0x0638+<ZWNJ>	#	ARABIC LETTER ZAH, final-isolated form
+0x66	0x0639+<ZWJ>	#	ARABIC LETTER AIN, initial-medial form
+0x67	0x0639+<ZWNJ>	#	ARABIC LETTER AIN, final-isolated form
+0x68	0x063A+<ZWJ>	#	ARABIC LETTER GHAIN, initial-medial form
+0x69	0x063A+<ZWNJ>	#	ARABIC LETTER GHAIN, final-isolated form
+0x6A	0x0641+<ZWJ>	#	ARABIC LETTER FEH, initial-medial form
+0x6B	0x0641+<ZWNJ>	#	ARABIC LETTER FEH, final-isolated form
+0x6C	0x0642+<ZWJ>	#	ARABIC LETTER QAF, initial-medial form
+0x6D	0x0642+<ZWNJ>	#	ARABIC LETTER QAF, final-isolated form
+0x6E	0x06A9+<ZWJ>	#	ARABIC LETTER KEHEH, initial-medial form
+0x6F	0x06A9+<ZWNJ>	#	ARABIC LETTER KEHEH, final-isolated form
+0x70	0x06AF+<ZWJ>	#	ARABIC LETTER GAF, initial-medial form
+0x71	0x06AF+<ZWNJ>	#	ARABIC LETTER GAF, final-isolated form
+0x72	0x0644+<ZWJ>	#	ARABIC LETTER LAM, initial-medial form
+0x73	0x0644+<ZWNJ>	#	ARABIC LETTER LAM, final-isolated form
+0x74	0x0645+<ZWJ>	#	ARABIC LETTER MEEM, initial-medial form
+0x75	0x0645+<ZWNJ>	#	ARABIC LETTER MEEM, final-isolated form
+0x76	0x0646+<ZWJ>	#	ARABIC LETTER NOON, initial-medial form
+0x77	0x0646+<ZWNJ>	#	ARABIC LETTER NOON, final-isolated form
+0x78	0x0648+<ZWJ>	#	ARABIC LETTER WAW, initial-medial form
+0x79	0x0648+<ZWNJ>	#	ARABIC LETTER WAW, final-isolated form
+0x7A	0x0647+<ZWJ>	#	ARABIC LETTER HEH, initial-medial form
+0x7B	0x0647+<ZWNJ>	#	ARABIC LETTER HEH, final-isolated form
+0x7C	0x06CC+<ZWJ>	#	ARABIC LETTER FARSI YEH, initial-medial form
+0x7D	0x06CC+<ZWNJ>	#	ARABIC LETTER FARSI YEH, final-isolated form
+0x7F	0x007F	#	<control>

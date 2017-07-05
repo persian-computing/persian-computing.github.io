@@ -1,0 +1,41 @@
+// ***************************************************************************
+// *
+// *   Copyright (C) 2003, International Business Machines
+// *   Corporation and others.  All Rights Reserved.
+// *
+// ***************************************************************************
+
+// Created by Roozbeh Pournader <roozbeh@sharif.edu> and Michael Everson <everson@evertype.com>
+
+ps_AF {
+    Version { "1.0" }
+    CurrencyElements {
+        "افغانۍ",
+        "AFA",
+        "٫",
+    }
+    DateTimeElements:intvector {
+        7,      // Saturday
+        1,
+    }
+    NumberPatterns { 
+        "#,##0.###;-#,##0.###",
+        "#,##0 ¤;-#,##0 ¤",
+        "#,##0%", // The percent sign appears on the right side.
+                  // Acad says it should appear on the left (like fa_IR).
+        "#E0",
+    }
+    NumberElements { 
+        "٫",
+        "٬",
+        ";",
+        "٪",
+        "۰",
+        "#",
+        "−",
+        "×۱۰^",
+        "‰",
+        "∞",
+        "�",
+    }
+}

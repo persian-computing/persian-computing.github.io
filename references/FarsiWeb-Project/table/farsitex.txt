@@ -1,0 +1,198 @@
+#
+#       Name:             FarsiTeX to Unicode
+#       Unicode version:  3.0.1
+#       Table version:    0.0
+#       Date:             8 January 2001
+#	Author:           Roozbeh Pournader <roozbeh@sharif.edu>
+#
+#	Copyright (c) 2001 Roozbeh Pournader.  All Rights reserved.
+#
+#	General notes:
+#
+#	This table contains the data on how FarsiTeX characters map into
+#       Unicode.
+#
+#	Format:  Three tab-separated columns
+#		 Column #1 is the FarsiTeX code (in hex as 0xXX)
+#		 Column #2 is the Unicode (in hex as 0xXXXX),
+#			plus additional formatting codes
+#		 Column #3 the near-Unicode name
+#			(follows a comment sign, '#')
+#
+#	The entries are in FarsiTeX order.
+#
+#	Any comments or problems, contact <roozbeh@sharif.edu>.
+#
+#	Notes:
+#
+#	1. Note that FarsiTeX format is not a standard, it is only a legacy
+#	character set.
+#
+#	2. The characters in the FarsiTeX format are saved, and transmitted
+#	in a semi-logical order. Hence converting Persian/Latin text coded
+#	in FarsiTeX format to Unicode with bidirectional behaviour may be
+#	hard, and will depend on the application. Because of this,
+#	converting from any other character set to FarsiTeX is not
+#	recommended except for running FarsiTeX on the file, because of the
+#	loss of information.
+#
+#	3. There are two, three, or four codes per letter in most cases: for
+#	initial, medial, isolated, and final forms of the letters, some of
+#	which are unified in most of the cases.
+#	
+#	Because of this, two tags, <ZWJ> and <ZWNJ> are added around
+#	character codes. Their use after the code means that a ZERO WIDTH
+#	JOINER (0x200D) or a ZERO WIDTH NON JOINER (0x200C) should be added
+#	after the character if the character is not followed by a right-join
+#	causing character, or a non-joining character respectively (in the
+#	manner of The Unicode Standard Version 2.0, pages 6-24 and 6-25).
+#	The same can be said when the code is preceded by the tag.
+#
+#	In informal words, they should be added if and only if there is a
+#	need. For example, Persian word "khaane-haa" (houses) that is coded
+#	in FarsiTeX as:
+#		0xA1 0x91 0xF7 0xF9 0xFA 0x91,
+#	is equal to the Unicode character sequence:
+#		0x062E 0x0627 0x0646 0x0647 0x200C 0x0647 0x0627.
+#	
+#	4. The near-Unicode names are only informative. In most of the
+#	cases, there isn't exactly one Unicode character per FarsiTeX
+#	character.
+#	
+#	5. The FarsiTeX file format is as follows: at the first column, a
+#	'>' or '<' character indicates a left-to-right or right-to-left line
+#	direction. Then the characters that make the line follow in the
+#	logical order. All characters above 0x7F are considered to be
+#	right-to-left characters. Even digits are considered right-to-left,
+#	so a line with only the number twelve in Persian digits, is stored
+#	as: 0x3C 0x82 0x81.
+#
+0x80	0x06F0	# EXTENDED ARABIC-INDIC DIGIT ZERO
+0x81	0x06F1	# EXTENDED ARABIC-INDIC DIGIT ONE
+0x82	0x06F2	# EXTENDED ARABIC-INDIC DIGIT TWO
+0x83	0x06F3	# EXTENDED ARABIC-INDIC DIGIT THREE
+0x84	0x06F4	# EXTENDED ARABIC-INDIC DIGIT FOUR
+0x85	0x06F5	# EXTENDED ARABIC-INDIC DIGIT FIVE
+0x86	0x06F6	# EXTENDED ARABIC-INDIC DIGIT SIX
+0x87	0x06F7	# EXTENDED ARABIC-INDIC DIGIT SEVEN
+0x88	0x06F8	# EXTENDED ARABIC-INDIC DIGIT EIGHT
+0x89	0x06F9	# EXTENDED ARABIC-INDIC DIGIT NINE
+0x8A	0x060C	# ARABIC COMMA
+0x8B	0x0640	# ARABIC TATWEEL
+0x8C	0x061F	# ARABIC QUESTION MARK
+0x8D	<ZWNJ>+0x0622	# ARABIC LETTER ALEF WITH MADDA ABOVE, isolated form
+0x8E	0x0626+<ZWJ>	# ARABIC LETTER YEH WITH HAMZA ABOVE, initial-medial
+form
+0x8F	0x0621	# ARABIC LETTER HAMZA
+0x90	<ZWNJ>+0x0627	# ARABIC LETTER ALEF, isolated form
+0x91	<ZWJ>+0x0627	# ARABIC LETTER ALEF, final form
+0x92	0x0628+<ZWNJ>	# ARABIC LETTER BEH, final-isolated form
+0x93	0x0628+<ZWJ>	# ARABIC LETTER BEH, initial-medial form
+0x94	0x067E+<ZWNJ>	# ARABIC LETTER PEH, final-isolated form
+0x95	0x067E+<ZWJ>	# ARABIC LETTER PEH, initial-medial form
+0x96	0x062A+<ZWNJ>	# ARABIC LETTER TEH, final-isolated form
+0x97	0x062A+<ZWJ>	# ARABIC LETTER TEH, initial-medial form
+0x98	0x062B+<ZWNJ>	# ARABIC LETTER THEH, final-isolated form
+0x99	0x062B+<ZWJ>	# ARABIC LETTER THEH, initial-medial form
+0x9A	0x062C+<ZWNJ>	# ARABIC LETTER JEEM, final-isolated form
+0x9B	0x062C+<ZWJ>	# ARABIC LETTER JEEM, initial-medial form
+0x9C	0x0686+<ZWNJ>	# ARABIC LETTER TCHEH, final-isolated form
+0x9D	0x0686+<ZWJ>	# ARABIC LETTER TCHEH, initial-medial form
+0x9E	0x062D+<ZWNJ>	# ARABIC LETTER HAH, final-isolated form
+0x9F	0x062D+<ZWJ>	# ARABIC LETTER HAH, initial-medial form
+0xA0	0x062E+<ZWNJ>	# ARABIC LETTER KHAH, final-isolated form
+0xA1	0x062E+<ZWJ>	# ARABIC LETTER KHAH, initial-medial form
+0xA2	0x062F	# ARABIC LETTER DAL
+0xA3	0x0630	# ARABIC LETTER THAL
+0xA4	0x0631	# ARABIC LETTER REH
+0xA5	0x0632	# ARABIC LETTER ZAIN
+0xA6	0x0698	# ARABIC LETTER JEH
+0xA7	0x0633+<ZWNJ>	# ARABIC LETTER SEEN, final-isolated form
+0xA8	0x0633+<ZWJ>	# ARABIC LETTER SEEN, initial-medial form
+0xA9	0x0634+<ZWNJ>	# ARABIC LETTER SHEEN, final-isolated form
+0xAA	0x0634+<ZWJ>	# ARABIC LETTER SHEEN, initial-medial form
+0xAB	0x0635+<ZWNJ>	# ARABIC LETTER SAD, final-isolated form
+0xAC	0x0635+<ZWJ>	# ARABIC LETTER SAD, initial-medial form
+0xAD	0x0636+<ZWNJ>	# ARABIC LETTER DAD, final-isolated form
+0xAE	0x0636+<ZWJ>	# ARABIC LETTER DAD, initial-medial form
+0xAF	0x0637+<ZWJ>	# ARABIC LETTER TAH, initial-medial form
+0xB0    0x064E  # ARABIC FATHA
+0xB1    0x0650  # ARABIC KASRA
+0xB2    0x064F  # ARABIC DAMMA
+0xB3    0x064B  # ARABIC FATHATAN
+0xB4    0x0651  # ARABIC SHADDA
+0xB5    0x0023  # NUMBER SIGN
+0xB6    0x0024  # DOLLAR SIGN
+0xB7    0x066A  # ARABIC PERCENT SIGN
+0xB8    0x0026  # AMPERSAND
+0xB9    0x0027  # APOSTROPHE
+0xBA    0x0670  # ARABIC LETTER SUPERSCRIPT ALEF
+0xBB    0x0654  # ARABIC HAMZA ABOVE
+0xBC    0x066B  # ARABIC DECIMAL SEPARATOR
+0xBD    0x0029  # RIGHT PARENTHESIS
+0xBE    0x0028  # LEFT PARENTHESIS
+0xBF    0x0629  # ARABIC LETTER TEH MARBUTA
+0xC0    0x00BB  # RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+0xC1	0x0637+<ZWNJ>	# ARABIC LETTER TAH, final-isolated form
+0xC2	0x0638+<ZWNJ>	# ARABIC LETTER ZAH, final-isolated form
+0xC3    0x00AB  # LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+0xC4    0x0652  # ARABIC SUKUN
+0xC5    0x002D  # HYPHEN-MINUS
+0xC6    0x002E  # FULL STOP
+0xC7    0x002F  # SOLIDUS
+0xC8    0x002A  # ASTERISK
+0xC9    0x007E  # TILDE
+0xCA    0x003A  # COLON
+0xCB    0x061B  # ARABIC SEMICOLON
+0xCC    0x003E  # GREATER-THAN SIGN
+0xCD    0x002B  # PLUS SIGN
+0xCE    0x003D  # EQUALS SIGN
+0xCF    0x003C  # LESS-THAN SIGN
+0xD0    0x0040  # COMMERCIAL AT
+0xD1    0x005D  # RIGHT SQUARE BRACKET
+0xD2    0x005C  # REVERSE SOLIDUS
+0xD3    0x005B  # LEFT SQUARE BRACKET
+0xD4    0x005E  # CIRCUMFLEX ACCENT
+0xD5    0x005F  # LOW LINE
+0xD6    0x0060  # GRAVE ACCENT
+0xD7    0x007D  # RIGHT CURLY BRACKET
+0xD8    0x007C  # VERTICAL LINE
+#  0xD9 <free>
+0xDA    0x0020  # SPACE
+#  0xDB <free>
+#  0xDC <free>
+0xDD    0x0021  # EXCLAMATION MARK
+0xDE    0x007B  # LEFT CURLY BRACKET
+#  0xDF <free>
+0xE0	0x0638+<ZWJ>	# ARABIC LETTER ZAH, initial-medial form
+0xE1	<ZWNJ>+0x0639+<ZWNJ>	# ARABIC LETTER AIN, isolated form
+0xE2	<ZWJ>+0x0639+<ZWNJ>	# ARABIC LETTER AIN, final form
+0xE3	<ZWJ>+0x0639+<ZWJ>	# ARABIC LETTER AIN, medial form
+0xE4	<ZWNJ>+0x0639+<ZWJ>	# ARABIC LETTER AIN, initial form
+0xE5	<ZWNJ>+0x063A+<ZWNJ>	# ARABIC LETTER GHAIN, isolated form
+0xE6	<ZWJ>+0x063A+<ZWNJ>	# ARABIC LETTER GHAIN, final form
+0xE7	<ZWJ>+0x063A+<ZWJ>	# ARABIC LETTER GHAIN, medial form
+0xE8	<ZWNJ>+0x063A+<ZWJ>	# ARABIC LETTER GHAIN, initial form
+0xE9	0x0641+<ZWNJ>	# ARABIC LETTER FEH, final-isolated form
+0xEA	0x0641+<ZWJ>	# ARABIC LETTER FEH, initial-medial form
+0xEB	0x0642+<ZWNJ>	# ARABIC LETTER QAF, final-isolated form
+0xEC	0x0642+<ZWJ>	# ARABIC LETTER QAF, initial-medial form
+0xED	0x06A9+<ZWNJ>	# ARABIC LETTER KEHEH, final-isolated form
+0xEE	0x06A9+<ZWJ>	# ARABIC LETTER KEHEH, initial-medial form
+0xEF	0x06AF+<ZWNJ>	# ARABIC LETTER GAF, final-isolated form
+0xF0	0x06AF+<ZWJ>	# ARABIC LETTER GAF, initial-medial form
+0xF1	0x0644+<ZWNJ>	# ARABIC LETTER LAM, final-isolated form
+0xF2	0x0644+0x0627	# ARABIC LIGATURE LAM WITH ALEF
+0xF3	0x0644+<ZWJ>	# ARABIC LETTER LAM, initial-medial form
+0xF4	0x0645+<ZWNJ>	# ARABIC LETTER MEEM, final-isolated form
+0xF5	0x0645+<ZWJ>	# ARABIC LETTER MEEM, initial-medial form
+0xF6	0x0646+<ZWNJ>	# ARABIC LETTER NOON, final-isolated form
+0xF7	0x0646+<ZWJ>	# ARABIC LETTER NOON, initial-medial form
+0xF8	0x0648	# ARABIC LETTER WAW
+0xF9	0x0647+<ZWNJ>	# ARABIC LETTER HEH, final-isolated form
+0xFA	<ZWJ>+0x0647+<ZWJ>	# ARABIC LETTER HEH, medial form
+0xFB	<ZWNJ>+0x0647+<ZWJ>	# ARABIC LETTER HEH, initial form
+0xFC	<ZWJ>+0x06CC+<ZWNJ>	# ARABIC LETTER FARSI YEH, final form
+0xFD	<ZWNJ>+0x06CC+<ZWNJ>	# ARABIC LETTER FARSI YEH, isolated form
+0xFE	0x06CC+<ZWJ>	# ARABIC LETTER FARSI YEH, initial-medial form
+#  0xFF <free>

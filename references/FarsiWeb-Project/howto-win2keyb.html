@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0040)http://www.farsiweb.info/howto/win2keyb/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+
+<title>FarsiWeb - Windows 2000 Persian Keyboard mini-HOWTO</title>
+<link rel="stylesheet" type="text/css" href="./howto-win2keyb_files/farsiweb.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://pkehgijcmpdhfbdbbnkijodmdjhbjlgp/skin/socialwidgets/socialwidgets.css"></head>
+<body>
+<div id="main">
+<h1>How to setup a standard Persian keyboard for Windows 2000</h1>
+
+<p>This is a mini-HOWTO for setting up <strong>standard</strong>
+Persian (Farsi) keyboard layout, <a href="http://www.isiri.org/std/2901.htm">ISIRI&nbsp;2901:1994</a>, on
+<strong>Windows 2000</strong> systems. This keyboard layout is the
+national Iranian standard, and is the best Persian keyboard layout
+the FarsiWeb project knows about. It has one of the shortest
+learning curves for inexperienced users, and has a complete
+repertoire of characters used in Persian without using
+<strong>Control</strong> and <strong>Alt</strong> keys.</p>
+
+<p>ISIRI 2900 is much much easier to use than Microsoft's Farsi
+keyboard, has Persian digits instead of European ones, and provides
+an easy mechanism for entering Pseudo Space using
+<em>Shift+Space</em>, among other features. (Microsoft's Windows
+team is aware of this standard layout. According to our contacts
+with Microsoft, they may adopt this layout in a later version of
+Windows.)</p>
+
+<p><span class="note"><span class="warning">Note:</span> We do not
+know of any possible side effects, but since you are replacing a
+Windows driver, this might create problems for your system. If you
+are not an experienced computer user, do this on a test
+installation first to make sure you understand the procedure. Also
+please note that this will not work on Windows&nbsp;95, 98 or
+ME.</span></p>
+
+<ol>
+<li>Make sure that you have the Microsoft Farsi Keyboard in your
+system, running properly.</li>
+
+<li>Backup the following file from your system. You will need to
+replace it if the system did not work properly:
+<strong>\WINNT\system32\kbdfa.dll</strong></li>
+
+<li>Download FarsiWeb's version of <a href="http://prdownloads.sourceforge.net/farsitools/kbdfa.dll">kbdfa.dll</a>.</li>
+
+<li>Login to your system as an "administrator".</li>
+
+<li>From the "Start" menu, select "Run...". Type "regedit".</li>
+
+<li>In the left panel, expand <strong>"My
+Computer\HKEY_LOCAL_MACHINE<br>
+\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"</strong>.
+In the right panel, double-click on <strong>"SFCDisable"</strong>
+and change its value from "0" to "1". Close regedit.</li>
+
+<li><em>This step is tricky, read it completely before you start it:</em>
+<br> From the "Start" menu, select "Run...". Type
+<strong>"sfc&nbsp;&nbsp;/purgecache"</strong>. A dialog box may open, asking
+you to insert your Windows 2000 installation CD. Do <strong>not</strong> do
+that. Select "Cancel" instead. In the next dialog, press "Yes". Then close
+the "Windows File Protection" program immediately by either closing the
+window or pressing it's "Cancel" button. On some systems, the CD requesting
+dialog may not appear, only the "Windows File Protection" program will
+start. If that's the case with your system, close it after about 10 seconds
+of running.</li>
+
+<li>Restart your system and login as an "administrator".</li>
+
+<li>Copy the FarsiWeb's version of <strong>"kbdfa.dll"</strong>
+over <strong>"\WINNT\system32\kbdfa.dll"</strong>. A "Windows File
+Protection" dialog will appear again. Press "Cancel" again. Select
+"Yes" in the next dialog box (telling that you want to keep the
+unrecognized file versions).</li>
+
+<li>Restart the computer again.</li>
+
+<li>To see if the keyboard is running properly, open <strong>"Start
+| Programs | Accessories | Accessiblity | On-Screen
+Keyboard"</strong>. Now switch the keyboard to "Farsi". If you see
+Persian digits instead of European ones, the keyboard is properly
+installed. <em>Congratulations!</em></li>
+</ol>
+
+<hr>
+<div class="copyright" style="margin-top: -1.5em; margin-bottom: -1em"><p>Copyright
+© 2001 The FarsiWeb Project Group, Computing Center, Sharif University
+of Technology.
+<br>
+Verbatim copying and distribution of this entire article is permitted in any
+medium, provided this notice is preserved.
+
+</p></div>
+
+<hr>
+
+<p><strong>Problems?</strong> contact the FarsiWeb Project Group at
+<a href="mailto:FWPG@sharif.edu">FWPG@sharif.edu</a>.</p>
+
+<div style="text-align: center">Back to <a href="http://www.farsiweb.info/">The FarsiWeb Project</a>
+homepage.</div>
+</div>
+
+
+</body></html>

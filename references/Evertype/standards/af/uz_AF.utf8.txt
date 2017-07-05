@@ -1,0 +1,169 @@
+// ***************************************************************************
+// *
+// *   Copyright (C) 2003, International Business Machines
+// *   Corporation and others.  All Rights Reserved.
+// *
+// ***************************************************************************
+//
+// Created by Roozbeh Pournader <roozbeh@sharif.edu> and Michael Everson <everson@evertype.com>
+
+uz_AF {
+    Version { "1.0" }
+
+    CollationElements {
+        Version { "1.0" }
+        Sequence { "[normalization on]"
+           "&َ << ِ << ُ << ً << ٍ << ٌ"
+           "&آ < ا << أ << ٲ << ٱ << إ << ٳ < ء"
+           "&ت < ټ << ٹ"
+           "&ج < ځ << حٔ"
+           "&چ < څ"
+           "&د < ډ << ڈ"
+           "&ر < ړ << ڑ"
+           "&ژ < ږ"
+           "&ک << ڪ << ك"
+           "&ګ << گ"
+           "&ڼ << ڻ"
+           "&و << ؤ << ۇ << ۉ"
+           "&ه <<< ۀ <<< هٔ << ە << ہ << ھ << ة << ۃ"
+           "&ی << ى << ے << ي << ې << ۍ << یٔ <<< ىٔ <<< ئ"
+           "&  << ‌ << ‍" // This is NBSP << ZWNJ << ZWJ
+         }
+    }
+
+    Countries {
+        AF { "افغانستان" }
+    }
+    // All forms say 12-hour clock, but no one suggests any abbreviation, so we'll use 24-hour
+    DateTimePatterns { 
+        "H:mm:ss (z)",
+        "H:mm:ss (z)",
+        "H:mm:ss",
+        "H:mm",
+        "yyyy نچی ییل d نچی MMMM EEEE کونی",
+        "d نچی MMMM yyyy",
+        "d MMMM yyyy",
+        "yyyy/M/d",
+        "{1} {0}",
+    }
+    DayAbbreviations { 
+        "ی.",
+        "د.",
+        "س.",
+        "چ.",
+        "پ.",
+        "ج.",
+        "ش.",
+    }
+    DayNames { 
+        "یکشنبه",
+        "دوشنبه",
+        "سه‌شنبه",
+        "چهارشنبه",
+        "پنجشنبه",
+        "جمعه",
+        "شنبه",
+    }
+    Eras { 
+        "ق.م.",
+        "م.", //MoE additionally suggests "ع."
+    }
+
+    Languages {        
+        fa { "دری" }
+        ps { "پشتو" }
+        uz { "اۉزبېک" }
+    }
+
+    MonthNames { 
+        "جنوری",
+        "فبروری",
+        "مارچ",
+        "اپریل",
+        "می",
+        "جون",
+        "جولای",
+        "اگست",
+        "سپتمبر",
+        "اکتوبر",
+        "نومبر",
+        "دسمبر",
+    }
+    MonthAbbreviations {
+        "جنو",
+        "فبر",
+        "مار",
+        "اپر",
+        "مـی",
+        "جون",
+        "جول",
+        "اگس",
+        "سپت",
+        "اکت",
+        "نوم",
+        "دسم",
+    }
+    NumberElements { 
+        "٫",
+        "٬",
+        ";",
+        "٪",
+        "۰",
+        "#",
+        "−",
+        "×۱۰^",
+        "‰",
+        "∞",
+        "�",
+    }
+    zoneStrings {
+        {
+            "Asia/Kabul",
+            "افغانستان وقتی",
+            "AFT",
+            "افغانستان وقتی",
+            "AFT",
+            "کابل",
+        }
+    }
+
+    LocaleScript:array {
+        "Arab"
+    }
+
+    //FIXME: add number spelling rules for Uzbek
+    SpelloutRules {
+        "=#,##0.######=;\n"
+    }
+
+    ExemplarCharacters{"[ء-ؤ ئ-غ ف ق ل-و ي ً-ْ ٔ ٰ ټ پ ځ څ-چ ډ ړ ږ ژ ښ ک ګ گ ڼ ۇ ۉ ی-ۍ ې]"}
+
+    CurrencyElements {
+        "افغانی",
+        "AFA",
+        "٫",
+    }
+    DateTimeElements:intvector {
+        7,      // Saturday
+        1,
+    }
+    NumberPatterns { 
+        "#,##0.###;-#,##0.###",
+        "#,##0 ¤;-#,##0 ¤",
+        "#,##0%", // The percent sign should appear on the right side. Academy says it should appear on the left (like fa_IR).
+        "#E0",
+    }
+    NumberElements { 
+        "٫",
+        "٬",
+        ";",
+        "٪",
+        "۰",
+        "#",
+        "−",
+        "×۱۰^",
+        "‰",
+        "∞",
+        "�",
+    }
+}
