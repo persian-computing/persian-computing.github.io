@@ -2,16 +2,18 @@
 
 ![Persian Computing Logo](community/images/Persian-Computing-Logo.png)
 
-This is a new home for the [Persian Computing Community](http://persian-computing.org/).
+NOTE: This is a version of [persian-computing.org](http://persian-computing.org/). Some old
+links may be broken. Please update your bookmarks!
 
-The repository hosts binary (e.g. images and PDF documents) and computer-friendly text files
-(like source code and mapping tables), whilc [the
-wiki](http://persian-computing.org/wiki/) hosts human-friendly content, authored by
-community members.
+The **Persian Computing Wiki** is now at
+[persian-computing.org/wiki](http://persian-computing.org/wiki/). To contribute to the wiki,
+please see the [GitHub Wiki
+page](https://github.com/persian-computing/persian-computing.github.io/wiki).  To edit wiki
+pages, you need to be member of the P-C organization on GitHub. Please write to
+[Behnam](https://github.com/behnam) with a quick note about how you like to contribute, to get
+access.
 
-----
-----
-
-NOTE: We are in the transition process from the old (Mediawiki-based) website:
-<http://wiki.persian-computing.org/wiki/>. The reason for the move is to make it easier for
-community members to contribute and share common resources, while reducing maintainace costs.
+This website and common resources linked from the wiki (like images, PDF documents, binary
+files), all are hosted in a GitHub project, which you can fork and contribute to! PRs (Pull
+Requests) are welcome! More on the page page:
+https://github.com/persian-computing/persian-computing.github.io
