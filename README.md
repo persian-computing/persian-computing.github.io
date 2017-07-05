@@ -8,7 +8,7 @@
 This website and common resources linked from the wiki (like images, PDF documents, binary
 files), all are hosted in a GitHub project, which you can fork and contribute to! PRs (Pull
 Requests) are welcome! More on the page page:
-https://github.com/persian-computing/persian-computing.github.io
+<https://github.com/persian-computing/persian-computing.github.io>
 
 ## The Wiki
 
@@ -41,11 +41,11 @@ We use mailing lists main announcements and discussions.
 ### Mailing List Archives
 
 -   Persian-Computing Archives (since 2000):
-    http://news.gmane.org/gmane.comp.misc.persiancomputing
+    <http://news.gmane.org/gmane.comp.misc.persiancomputing>
     ([info](http://gmane.org/info.php?group=gmane.comp.misc.persiancomputing))
 
 -   Old FarsiWeb Archives (Jan 2002 to Dec 2003):
-    http://www.mail-archive.com/farsiweb\@lists.sharif.edu/
+    <http://www.mail-archive.com/farsiweb\@lists.sharif.edu/>
 
 -   Old PersianComputing archives (Nov 2003 to Mar 2006):
-    http://www.mail-archive.com/persiancomputing\@lists.sharif.edu/
+    <http://www.mail-archive.com/persiancomputing\@lists.sharif.edu/>
