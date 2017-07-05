@@ -1,6 +1,6 @@
 # Persian Computing Community
 
-![Persian Computing Logo](.community/Persian-Computing-Logo.png)
+![Persian Computing Logo](community/images/Persian-Computing-Logo.png)
 
 This is a new home for the [Persian Computing Community](http://persian-computing.org/).
 
