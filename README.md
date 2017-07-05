@@ -10,6 +10,7 @@ wiki](https://persian-computing.github.io/persian-computing/wiki/) hosts human-f
 authored by community members.
 
 ----
+----
 
 NOTE: We are in the transition process from the old (Mediawiki-based) website:
 <http://wiki.persian-computing.org/wiki/>. The reason for the move is to make it easier for
