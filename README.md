@@ -1,9 +1,9 @@
-# Persian Computing Community
+# [Persian Computing Community](http://persian-computing.org/)
 
-![Persian Computing Logo](community/images/Persian-Computing-Logo.png)
+![[Persian Computing Logo](http://persian-computing.org/)](community/images/Persian-Computing-Logo.png)
 
-NOTE: This is a version of [persian-computing.org](http://persian-computing.org/). Some old
-links may be broken. Please update your bookmarks!
+> Welcome to the new [persian-computing.org](http://persian-computing.org/). Some old links may
+> be broken. Please update your bookmarks!
 
 The **Persian Computing Wiki** is now at
 [persian-computing.org/wiki](http://persian-computing.org/wiki/). To contribute to the wiki,
