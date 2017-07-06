@@ -24,7 +24,7 @@ page](https://github.com/persian-computing/persian-computing.github.io/wiki).
 You should be able to edit wiki page and create new ones. You can file a GitHub issue or
 contact the admin ([@behnam](https://github.com/behnam/)) if you have any problems.
 
-## The Community
+## The Mailing Lists
 
 We use mailing lists main announcements and discussions.
 
@@ -42,7 +42,7 @@ We use mailing lists main announcements and discussions.
 -   [Persian-Computing-FA](http://groups.google.com/group/persian-computing-fa/?hl=fa):
     مکانی برای بحث پیرامون مشکلات زبان و فرهنگ فارسی و ایرانی در دنیای رایانه‌ها
 
-### Mailing List Archives
+### Archives
 
 -   Persian-Computing Archives (since 2000):
     <http://news.gmane.org/gmane.comp.misc.persiancomputing>
@@ -54,7 +54,7 @@ We use mailing lists main announcements and discussions.
 -   Old PersianComputing archives (Nov 2003 to Mar 2006):
     <http://www.mail-archive.com/persiancomputing\@lists.sharif.edu/>
 
-## References
+## The References
 
 We maintain a local backup of important references related to Persian Computing, to be used in
 research and development. These copies are stored with no changes to the content and minimizing
