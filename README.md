@@ -42,7 +42,7 @@ We use mailing lists main announcements and discussions.
 -   [Persian-Computing-FA](http://groups.google.com/group/persian-computing-fa/?hl=fa):
     مکانی برای بحث پیرامون مشکلات زبان و فرهنگ فارسی و ایرانی در دنیای رایانه‌ها
 
-### Archives
+### Mailing List Archives
 
 -   Persian-Computing Archives (since 2000):
     <http://news.gmane.org/gmane.comp.misc.persiancomputing>
