@@ -3,7 +3,7 @@
 This is a mirror of main pages of the old *The FarsiWeb Project.* website at
 <http://www.farsiweb.info/>
 
-> NOTE: Majority of the content in these pages are not out-of-date and obsolete.
+> NOTE: Majority of the content in these pages are now out-of-date and obsolete.
 
 ## Pages
 
