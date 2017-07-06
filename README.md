@@ -2,18 +2,15 @@
 
 Welcome to the new [persian-computing.org](http://persian-computing.org/)!
 
+> Some old links may be broken. Please update your bookmarks!
+
+This website and common resources linked from the wiki (like images, PDF documents, binary
+files), all are managed on GitHub.
+
 GitHub: [persian-computing/persian-computing.github.io](https://github.com/persian-computing/persian-computing.github.io)
 [![issues](https://img.shields.io/github/issues/persian-computing/persian-computing.github.io.svg)](https://github.com/persian-computing/persian-computing.github.io/issues)
 [![watchers](https://img.shields.io/github/watchers/persian-computing/persian-computing.github.io.svg?style=social&label=Watch)](https://github.com/persian-computing/persian-computing.github.io)
 [![stars](https://img.shields.io/github/stars/persian-computing/persian-computing.github.io.svg?style=social&label=Star)](https://github.com/persian-computing/persian-computing.github.io)
-
-> Some old links may
-> be broken. Please update your bookmarks!
-
-This website and common resources linked from the wiki (like images, PDF documents, binary
-files), all are hosted in a GitHub project, which you can fork and contribute to! PRs (Pull
-Requests) are welcome! More on the page page:
-<https://github.com/persian-computing/persian-computing.github.io>
 
 ## The Wiki
 
@@ -21,6 +18,11 @@ The **Persian Computing Wiki** is now at
 [persian-computing.org/wiki](http://persian-computing.org/wiki/). To contribute to the wiki,
 please see the [GitHub Wiki
 page](https://github.com/persian-computing/persian-computing.github.io/wiki).
+
+### How to Contribute
+
+You should be able to edit wiki page and create new ones. You can file a GitHub issue or
+contact the admin ([@behnam](https://github.com/behnam/)) if you have any problems.
 
 ## The Community
 
