@@ -1,6 +1,13 @@
 ![[Persian Computing Logo](http://persian-computing.org/)](community/images/Persian-Computing-Logo.png)
 
-> Welcome to the new [persian-computing.org](http://persian-computing.org/). Some old links may
+Welcome to the new [persian-computing.org](http://persian-computing.org/)!
+
+GitHub: [persian-computing/persian-computing.github.io](https://github.com/persian-computing/persian-computing.github.io)
+[![forks](https://img.shields.io/github/forks/persian-computing/persian-computing.github.io.svg?style=social&label=Fork)](https://github.com/persian-computing/persian-computing.github.io)
+[![stars](https://img.shields.io/github/stars/persian-computing/persian-computing.github.io.svg?style=social&label=Star)](https://github.com/persian-computing/persian-computing.github.io)
+[![watchers](https://img.shields.io/github/watchers/persian-computing/persian-computing.github.io.svg?style=social&label=Watch)](https://github.com/persian-computing/persian-computing.github.io)
+
+> Some old links may
 > be broken. Please update your bookmarks!
 
 This website and common resources linked from the wiki (like images, PDF documents, binary
