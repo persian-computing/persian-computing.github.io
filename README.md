@@ -13,10 +13,7 @@ Requests) are welcome! More on the page page:
 The **Persian Computing Wiki** is now at
 [persian-computing.org/wiki](http://persian-computing.org/wiki/). To contribute to the wiki,
 please see the [GitHub Wiki
-page](https://github.com/persian-computing/persian-computing.github.io/wiki).  To edit wiki
-pages, you need to be member of the P-C organization on GitHub. Please write to
-[Behnam](https://github.com/behnam) with a quick note about how you like to contribute, to get
-access.
+page](https://github.com/persian-computing/persian-computing.github.io/wiki).
 
 ## The Community
 
