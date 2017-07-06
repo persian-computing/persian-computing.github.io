@@ -49,3 +49,15 @@ We use mailing lists main announcements and discussions.
 
 -   Old PersianComputing archives (Nov 2003 to Mar 2006):
     <http://www.mail-archive.com/persiancomputing\@lists.sharif.edu/>
+
+## References
+
+We maintain a local backup of important references related to Persian Computing, to be used in
+research and development. These copies are stored with no changes to the content and minimizing
+changes in looks as much as possible.
+
+-   [The FarsiWeb Project](http://persian-computing.org/references/FarsiWeb-Project/)
+-   [Sharif FarsiWeb, Inc.](http://persian-computing.org/references/Sharif-FarsiWeb-Inc/)
+
+Please see the git repository for other references:
+<https://github.com/persian-computing/persian-computing.github.io/tree/master/references>
