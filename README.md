@@ -4,8 +4,8 @@ Welcome to the new [persian-computing.org](http://persian-computing.org/)!
 
 GitHub: [persian-computing/persian-computing.github.io](https://github.com/persian-computing/persian-computing.github.io)
 [![issues](https://img.shields.io/github/issues/persian-computing/persian-computing.github.io.svg)](https://github.com/persian-computing/persian-computing.github.io/issues)
-[![stars](https://img.shields.io/github/stars/persian-computing/persian-computing.github.io.svg?style=social&label=Star)](https://github.com/persian-computing/persian-computing.github.io)
 [![watchers](https://img.shields.io/github/watchers/persian-computing/persian-computing.github.io.svg?style=social&label=Watch)](https://github.com/persian-computing/persian-computing.github.io)
+[![stars](https://img.shields.io/github/stars/persian-computing/persian-computing.github.io.svg?style=social&label=Star)](https://github.com/persian-computing/persian-computing.github.io)
 
 > Some old links may
 > be broken. Please update your bookmarks!
