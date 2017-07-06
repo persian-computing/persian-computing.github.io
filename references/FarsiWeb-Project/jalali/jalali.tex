@@ -1,0 +1,155 @@
+%%
+%% This is file `jalali.tex',
+%% also known as `ircal.tex',
+%% Copyright (C) 2000-2004  Behdad Esfahbod <behdad@farsitex.org>
+%%
+%% Provides Iranian Calendar
+%%
+\newif\ifir@leap
+\newif\ifir@kabiseh
+
+\def\ir@today{{%
+\countdef\ir@i=0
+\countdef\ir@y=1
+\countdef\ir@m=2
+\countdef\ir@d=3
+\countdef\ir@temp=4
+\countdef\ir@temptwo=5
+\countdef\ir@tempthree=6
+\countdef\ir@yModHundred=7
+\countdef\ir@dn=8
+\countdef\ir@sn=9
+\countdef\ir@mminusone=10
+\ir@y=\year \ir@m=\month \ir@d=\day
+%
+\ir@temp=\ir@y
+\divide\ir@temp by 100%
+\multiply\ir@temp by 100%
+\ir@yModHundred=\ir@y
+\advance\ir@yModHundred by -\ir@temp\relax
+%
+\ifodd\ir@yModHundred
+   \ir@leapfalse
+\else
+   \ir@temp=\ir@yModHundred
+   \divide\ir@temp by 2\relax
+   \ifodd\ir@temp\ir@leapfalse
+   \else
+      \ifnum\ir@yModHundred=0%
+         \ir@temp=\ir@y
+         \divide\ir@temp by 400\relax
+         \multiply\ir@temp by 400\relax
+         \ifnum\ir@y=\ir@temp\ir@leaptrue\else\ir@leapfalse\fi
+      \else\ir@leaptrue
+      \fi
+   \fi
+\fi
+%
+\chardef\ir@gregi31\ifir@leap\chardef\ir@gregii29\else\chardef\ir@gregii28\fi
+\chardef\ir@gregiii31\chardef\ir@gregiv30%
+\chardef\ir@gregv31\chardef\ir@gregvi30%
+\chardef\ir@gregvii31\chardef\ir@gregviii31%
+\chardef\ir@gregix30\chardef\ir@gregx31%
+\chardef\ir@gregxi30\chardef\ir@gregxii31%
+%
+\ir@temp=\ir@y
+\advance\ir@temp by -17\relax
+\ir@temptwo=\ir@temp
+\divide\ir@temptwo by 33\relax
+\multiply\ir@temptwo by 33\relax
+\advance\ir@temp by -\ir@temptwo
+\ifnum\ir@temp=32\relax\ir@kabisehfalse
+\else
+   \ir@temptwo=\ir@temp
+   \divide\ir@temptwo by 4\relax
+   \multiply\ir@temptwo by 4\relax
+   \advance\ir@temp by -\ir@temptwo
+   \ifnum\ir@temp=\z@\ir@kabisehtrue\else\ir@kabisehfalse\fi
+\fi
+%
+% In fact irani is equal to the Leap years from a fixed year to the last
+% year minus the Kabise years from a fixed year to the last year plus a const.
+%
+\ir@tempthree=\ir@y                 % Number of Leap years
+\advance\ir@tempthree by\m@ne
+\ir@temp=\ir@tempthree              % T := (MY-1) div 4
+\divide\ir@temp by 4\relax
+\ir@temptwo=\ir@tempthree           % T := T - ((MY-1) div 100)
+\divide\ir@temptwo by 100\relax
+\advance\ir@temp by -\ir@temptwo
+\ir@temptwo=\ir@tempthree           % T := T + ((MY-1) div 400)
+\divide\ir@temptwo by 400\relax
+\advance\ir@temp by \ir@temptwo
+\advance\ir@tempthree by -611       % Number of Kabise years
+\ir@temptwo=\ir@tempthree           % T := T - ((SY+10) div 33) * 8
+\divide\ir@temptwo by 33\relax
+\multiply\ir@temptwo by 8\relax
+\advance\ir@temp by -\ir@temptwo
+\ir@temptwo=\ir@tempthree           %
+\divide\ir@temptwo by 33\relax
+\multiply\ir@temptwo by 33\relax
+\advance\ir@tempthree by -\ir@temptwo
+\ifnum\ir@tempthree=32\advance\ir@temp by\@ne\fi % if (SY+10) mod 33=32 then Inc(T);
+\divide\ir@tempthree by 4\relax     % T := T - ((SY+10) mod 33) div 4
+\advance\ir@temp by -\ir@tempthree
+\advance\ir@temp by -137            % T := T - 137  Adjust the value
+\ir@temptwo=31
+\advance\ir@temptwo by-\ir@temp     % now 31 - T is the farsii
+\chardef\ir@irani\ir@temptwo
+\chardef\ir@iranii30
+\ifir@kabiseh\chardef\ir@iraniii30\else\chardef\ir@iraniii29\fi
+\chardef\ir@iraniv31\chardef\ir@iranv31%
+\chardef\ir@iranvi31\chardef\ir@iranvii31%
+\chardef\ir@iranviii31\chardef\ir@iranix31%
+\chardef\ir@iranx30\chardef\ir@iranxi30%
+\chardef\ir@iranxii30\chardef\ir@iranxiii30%
+%
+\ir@dn=0\relax
+\ir@sn=0\relax
+\ir@mminusone=\ir@m
+\advance\ir@mminusone by\m@ne\relax
+%
+\ir@i=0\relax
+\ifnum\ir@i<\ir@mminusone
+  \loop
+  \advance \ir@i by\@ne\relax
+  \advance\ir@dn by \csname ir@greg\romannumeral\ir@i\endcsname
+  \ifnum\ir@i<\ir@mminusone\repeat
+\fi
+\advance \ir@dn by\ir@d
+%
+\ir@i=1\relax
+\ir@sn=\ir@irani
+\ifnum\ir@sn<\ir@dn
+  \loop
+  \advance\ir@i by1\relax
+  \advance\ir@sn by\csname ir@iran\romannumeral\ir@i\endcsname
+  \ifnum\ir@sn<\ir@dn\repeat
+\fi
+\ifnum\ir@i<4%
+   \ir@m=9\advance\ir@m by\ir@i
+   \advance\ir@y by-622\relax
+\else
+   \ir@m=\ir@i \advance\ir@m by-3\relax
+   \advance\ir@y by-621\relax
+\fi
+\advance\ir@sn by -\csname ir@iran\romannumeral\ir@i%
+\endcsname
+\ifnum\ir@i =\@ne
+  \ir@d=\ir@dn \advance\ir@d by30 \advance\ir@d by-\ir@irani
+\else
+  \ir@d=\ir@dn \advance\ir@d by-\ir@sn
+\fi
+%
+\xdef\ir@@d{\the\ir@d}%
+\xdef\ir@@m{\the\ir@m}%
+\xdef\ir@@y{\the\ir@y}%
+}%
+\let\ir@d\ir@@d
+\let\ir@m\ir@@m
+\let\ir@y\ir@@y
+}
+
+\endinput
+%%
+%% End of `jalali.tex'.

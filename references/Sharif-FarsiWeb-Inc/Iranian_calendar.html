@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+    <meta name="KEYWORDS" content="Iranian Calendar,Iranian calendar,Frequently Asked Questions">
+<meta name="robots" content="index,follow">
+<link rel="shortcut icon" href="common/favicon.ico">
+    <title>Iranian calendar - FarsiWeb</title>
+</head>
+  <body class="ns-0">
+      <h1>Iranian calendar</h1>
+	    <p>FarsiWeb has published <b>Jalali</b>, a Free Software library to convert between the Iranian calendar (<i>Hejri-e Shamsi</i>) and the Gregorian date systems:
+</p>
+<div class="editsection" style="float:right;margin-left:5px;"></div><a name="Sources"></a><h2> Sources </h2>
+<ul><li> <a href="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.c" class="external text" title="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.c" rel="nofollow">ANSI C source</a>
+</li><li> <a href="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.phps" class="external text" title="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.phps" rel="nofollow">PHP source</a>
+</li><li> <a href="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.js" class="external text" title="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.js" rel="nofollow">JavaScript (ECMAScript) source</a>
+</li><li> <a href="https://github.com/mono/mono/blob/master/mcs/class/referencesource/mscorlib/system/globalization/Persiancalendar.cs" class="external text" title="http://svn.myrealbox.com/viewcvs/*checkout*/trunk/mcs/class/corlib/System.Globalization/PersianCalendar.cs" rel="nofollow">C# source</a>
+</li><li> <a href="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.tex" class="external text" title="http://persian-computing.org/references/FarsiWeb-Project/jalali/jalali.tex" rel="nofollow">TeX source</a>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;"></div><a name="Older_binaries"></a><h2> Older binaries </h2>
+<p><i>Note:</i> These may be out of date.
+</p>
+<ul><li> <a href="http://prdownloads.sourceforge.net/farsitools/jalali-win32-20010913.zip" class="external text" title="http://prdownloads.sourceforge.net/farsitools/jalali-win32-20010913.zip" rel="nofollow">Windows executable and sources</a> (ported by <a href="http://www.cs.toronto.edu/~mehrdad" class="external text" title="http://www.cs.toronto.edu/~mehrdad" rel="nofollow">Mehrdad Sabetzadeh</a>)
+</li><li> Palm OS 4.0 <a href="http://prdownloads.sourceforge.net/farsitools/Jalali.prc" class="external text" title="http://prdownloads.sourceforge.net/farsitools/Jalali.prc" rel="nofollow">executable</a> and <a href="http://prdownloads.sourceforge.net/farsitools/Jalali-PalmOS4.tar.gz" class="external text" title="http://prdownloads.sourceforge.net/farsitools/Jalali-PalmOS4.tar.gz" rel="nofollow">sources</a>
+</li><li> <a href="http://prdownloads.sourceforge.net/farsitools/jalali-pocketpc-20010921.zip" class="external text" title="http://prdownloads.sourceforge.net/farsitools/jalali-pocketpc-20010921.zip" rel="nofollow">PocketPC executable and sources</a> and its <a href="http://farsiweb.ir/wiki/Image:Pocketpc.png" class="external text" title="http://farsiweb.ir/wiki/Image:Pocketpc.png" rel="nofollow">screenshot</a>
+</li></ul>
+<div class="editsection" style="float:right;margin-left:5px;"></div><a name="The_algorithm"></a><h2> The algorithm </h2>
+<p>Jalali implements the simple 33-year arithmetic calendar, which is <b>not</b> the same as the official Iranian calendar. But this arithmetic calendar has been confirmed to produce the same results as the official Iranian calendar at least from 1925 C.E., when the calendar was officially introduced,
+to 2088 C.E. This is the same algorithm that is used in <a href="http://www.mono-project.com/" class="external text" title="http://www.mono-project.com" rel="nofollow">Mono</a> and Microsoft's <a href="http://www.microsoft.com/net/" class="external text" title="http://www.microsoft.com/net/" rel="nofollow">.NET</a> (<a href="http://msdn2.microsoft.com/en-us/library/system.globalization.persiancalendar" class="external text" title="http://msdn2.microsoft.com/en-us/library/system.globalization.persiancalendar" rel="nofollow">Microsoft's documentation</a>).
+</p><p>The Iranian law explicitly mentions that the true solar year should be used, which requires astronomical calculations of the <a href="http://en.wikipedia.org/wiki/March_equinox" class="external text" title="http://en.wikipedia.org/wiki/March equinox" rel="nofollow">March equinox</a> and the solar apparent noon. The exact locale for observation of the apparent noon is not mentioned in the 1925 Iranian law, but the current practice is using the 52.5° E meridian, which is the meridian defining the official timezone of Iran.
+</p><p>Also, please note that implementing the Persian calendar using the 2820-year arithmetic algorithm, as suggested by Ahmad Birashk and others (and mistakenly attributed to Omar Khayyam), is less accurate than the 33-year calendar: first, it fails earlier than the 33-year cycle in matching the official astronomical calendar (first failure is in 2025 C.E.), and second, the 2820-year suggested rule is based on the mean tropical year, not the mean March equinoctial year.
+</p><p><i>See also: </i> <a href="FAQ.html#I_have_heard_that_your_Persian_calendar_algorithm_is_wrong._Is_that_so.3F" title="Frequently Asked Questions">FAQ question about the accuracy of calendar</a>
+</p><div class="printfooter">
+Retrieved from "<a href="http://www.farsiweb.ir/wiki/Iranian_calendar">http://www.farsiweb.ir/wiki/Iranian_calendar</a>"</div>
+</body></html>

@@ -7,11 +7,16 @@ This is a mirror of main pages of the old *Sharif FarsiWeb, Inc.* website at
 
 ## Pages
 
-* [Main Page](Main-Page.html)
-* [Sharif FarsiWeb](Sharif-FarsiWeb.html)
-* [About FarsiWeb](About-FarsiWeb.html)
-* [Contact us](Contact-us.html)
+* [Main Page](Main_Page.html)
+* [About FarsiWeb](About_FarsiWeb.html)
+* [Contact us](Contact_us.html)
 * [FAQ](FAQ.html)
+* [FarsiLinux output](FarsiLinux_output.html)
+* [GNOME](GNOME.html)
+* [Iranian calendar](Iranian_calendar.html)
 * [News](News.html)
-* [Old news](Old-news.html)
-* [Persian fonts](Persian-fonts.html)
+* [Old news](Old_news.html)
+* [Persian fonts](Persian_fonts.html)
+* [Sharif FarsiWeb](Sharif_FarsiWeb.html)
+* [Sharif Linux](Sharif_Linux.html)
+* [The FarsiWeb Project](The_FarsiWeb_Project.html)
