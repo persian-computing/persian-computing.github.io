@@ -1,4 +1,4 @@
-<div style="margin: auto; width: auto;"><a href="http://persian-computing.org/"><img src ="community/images/Persian-Computing-Logo.png" /></a></div>
+![[Persian Computing Logo](http://persian-computing.org/)](community/images/Persian-Computing-Logo.png)
 
 Welcome to the new [persian-computing.org](http://persian-computing.org/)!
 
