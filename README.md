@@ -1,5 +1,3 @@
-# [Persian Computing Community](http://persian-computing.org/)
-
 ![[Persian Computing Logo](http://persian-computing.org/)](community/images/Persian-Computing-Logo.png)
 
 > Welcome to the new [persian-computing.org](http://persian-computing.org/). Some old links may
