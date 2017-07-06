@@ -1,7 +1,7 @@
 # The FarsiWeb Project
 
-This is a mirror of main pages of the old *The FarsiWeb Project.* website at
-<http://www.farsiweb.info/>
+This is a mirror of main pages of old *The FarsiWeb Project* website at
+<http://www.farsiweb.info/>.
 
 > NOTE: Majority of the content in these pages are now out-of-date and obsolete.
 

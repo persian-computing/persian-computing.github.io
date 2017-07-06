@@ -1,7 +1,7 @@
 # Sharif FarsiWeb, Inc.
 
 This is a mirror of main pages of the old *Sharif FarsiWeb, Inc.* website at
-<http://farsiweb.ir/>
+<http://farsiweb.ir/>.
 
 > NOTE: Majority of the content in these pages are now out-of-date and obsolete.
 
