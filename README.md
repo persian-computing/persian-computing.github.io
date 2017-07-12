@@ -15,9 +15,9 @@ GitHub: [persian-computing/persian-computing.github.io](https://github.com/persi
 ## The Wiki
 
 The **Persian Computing Wiki** is now at
-[persian-computing.org/wiki](http://persian-computing.org/wiki/). To contribute to the wiki,
-please see the [GitHub Wiki
-page](https://github.com/persian-computing/persian-computing.github.io/wiki).
+[persian-computing.org/wiki](http://persian-computing.org/wiki/).
+
+To contribute to the wiki, please see the [github wiki page](https://github.com/persian-computing/persian-computing.github.io/wiki).
 
 ### How to Contribute
 
@@ -49,10 +49,10 @@ We use mailing lists main announcements and discussions.
     ([info](http://gmane.org/info.php?group=gmane.comp.misc.persiancomputing))
 
 -   Old FarsiWeb Archives (Jan 2002 to Dec 2003):
-    <http://www.mail-archive.com/farsiweb\@lists.sharif.edu/>
+    <http://www.mail-archive.com/farsiweb@lists.sharif.edu/>
 
 -   Old PersianComputing archives (Nov 2003 to Mar 2006):
-    <http://www.mail-archive.com/persiancomputing\@lists.sharif.edu/>
+    <http://www.mail-archive.com/persiancomputing@lists.sharif.edu/>
 
 ## The References
 
