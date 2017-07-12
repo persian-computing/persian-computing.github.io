@@ -63,3 +63,17 @@ changes in looks as much as possible.
 
 Please see the git repository for other references:
 <https://github.com/persian-computing/persian-computing.github.io/tree/master/references>
+
+## The Community
+
+A primary goal of Persian Computing Community is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+
+This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
+
+We invite all those who participate in Persian Computing Community to help us create safe and positive experiences for everyone.
+
+Please see the [Code of Conduct](CODE_OF_CONDUCT.md) page for details.
+
+## The License
+
+Most of the content of the website and wiki is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. Please contact the admins if you have any questions.
