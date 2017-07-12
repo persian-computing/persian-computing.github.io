@@ -1,16 +1,14 @@
 ![[Persian Computing Logo](http://persian-computing.org/)](community/images/Persian-Computing-Logo.png)
 
-Welcome to the new [persian-computing.org](http://persian-computing.org/)!
-
-> Some old links may be broken. Please update your bookmarks!
+Welcome to the refreshed [persian-computing.org](http://persian-computing.org/) homepage!
 
 This website and common resources linked from the wiki (like images, PDF documents, binary
 files), all are managed on GitHub.
 
 GitHub: [persian-computing/persian-computing.github.io](https://github.com/persian-computing/persian-computing.github.io)
-[![issues](https://img.shields.io/github/issues/persian-computing/persian-computing.github.io.svg)](https://github.com/persian-computing/persian-computing.github.io/issues)
-[![watchers](https://img.shields.io/github/watchers/persian-computing/persian-computing.github.io.svg?style=social&label=Watch)](https://github.com/persian-computing/persian-computing.github.io)
 [![stars](https://img.shields.io/github/stars/persian-computing/persian-computing.github.io.svg?style=social&label=Star)](https://github.com/persian-computing/persian-computing.github.io)
+[![watchers](https://img.shields.io/github/watchers/persian-computing/persian-computing.github.io.svg?style=social&label=Watch)](https://github.com/persian-computing/persian-computing.github.io)
+[![issues](https://img.shields.io/github/issues/persian-computing/persian-computing.github.io.svg)](https://github.com/persian-computing/persian-computing.github.io/issues)
 
 ## The Wiki
 
