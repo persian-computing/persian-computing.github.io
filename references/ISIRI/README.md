@@ -22,10 +22,6 @@ representative to International Organization for Standardization.
 * [ISIRI-6219-final-draft.pdf](ISIRI-6219-final-draft.pdf) (Final Draft)
 * [ISIRI-9147.pdf](ISIRI-9147.pdf)
 
-NOTE: Some HTML files in this directory have lost their non-ASCII text because
-of encoding problems. We are trying to resolve this issue by finding better
-sources for the documents.
-
 ## About this Collection
 
 This directory contains copies of the ISIRI standard related to Persian
