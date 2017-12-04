@@ -10,7 +10,23 @@ representative to International Organization for Standardization.
 * Wikipedia:
   <https://en.wikipedia.org/wiki/Institute_of_Standards_and_Industrial_Research_of_Iran>
 
-## This Collection
+## Files
+
+* [ISIRI-1.html](ISIRI-1.html)
+* [ISIRI-1.pdf](ISIRI-1.pdf)
+* [ISIRI-820.html](ISIRI-820.html)
+* [ISIRI-2900.html](ISIRI-2900.html)
+* [ISIRI-2901.html](ISIRI-2901.html)
+* [ISIRI-3342.html](ISIRI-3342.html)
+* [ISIRI-6219.html](ISIRI-6219.html) (Published)
+* [ISIRI-6219-final-draft.pdf](ISIRI-6219-final-draft.pdf) (Final Draft)
+* [ISIRI-9147.pdf](ISIRI-9147.pdf)
+
+NOTE: Some HTML files in this directory have lost their non-ASCII text because
+of encoding problems. We are trying to resolve this issue by finding better
+sources for the documents.
+
+## About this Collection
 
 This directory contains copies of the ISIRI standard related to Persian
 Computing, collected for archival purposes.
@@ -18,11 +34,7 @@ Computing, collected for archival purposes.
 The articles are gathered by Behnam Esfahbod.
 
 * Latest Source:
-  <http://eform.isiri.gov.ir/portal/home/?148514/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1>
-
-NOTE: Some HTML files in this directory have lost their non-ASCII text because
-of encoding problems. We are trying to resolve this issue by finding better
-sources for the documents.
+  <http://eform.isiri.gov.ir/portal/home/?148514/فهرست-استانداردهای-ملی-کاربر>
 
 ## See Also
 
