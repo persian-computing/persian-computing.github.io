@@ -7,6 +7,7 @@ then
 fi
 
 SUBMODULES=$( git submodule status | cut -d' ' -f 3 )
+echo $SUBMODULES
 
 git submodule foreach --recursive " \
     git status; \
@@ -23,6 +24,6 @@ git add $SUBMODULES
 git commit \
     --author="Travis CI <travis@persian-computing.org>" \
     --message="[cron] Update git submodules" \
-    || exit # nothing to commit
+    || exit 0 # clean exit if nothing to commit
 
 git push "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master
