@@ -35,7 +35,7 @@ The articles are gathered by Behnam Esfahbod.
 ## See Also
 
 * The old "ISIRI 6219" page, from the FarsiWeb Project:
-  <http://persian-computing.org/references/Sharif-FarsiWeb-Inc/ISIRI_6219.html>
+  <http://persian-computing.org/archives/Sharif-FarsiWeb-Inc/ISIRI_6219.html>
 
 * Data tables of ISIRI standards, from the FarsiWeb Project:
-  <https://github.com/persian-computing/persian-computing.github.io/tree/91056aed4703889a87409b2bf909830f44f182b3/references/FarsiWeb-Project/table>
+  <https://github.com/persian-computing/persian-computing.github.io/tree/master/archives/FarsiWeb-Project/table>
