@@ -1,0 +1,22 @@
+language: generic
+sudo: false 
+
+branches:
+  only:
+  - master
+
+# disable the default submodule logic
+git:
+  submodules: false
+
+# use sed to replace the SSH URL with the public URL, then init and update submodules
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
+
+deploy:
+  on:
+    branch: master
+  skip_cleanup: true
+  provider: script
+  script: .scripts/travis-update-git-submodules.sh
