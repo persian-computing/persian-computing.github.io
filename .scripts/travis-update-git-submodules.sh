@@ -22,6 +22,7 @@ git add $SUBMODULES
 
 git commit \
     --author="Travis CI <travis@persian-computing.org>" \
-    --message="[cron] Update git submodules"
+    --message="[cron] Update git submodules" \
+    || exit # nothing to commit
 
 git push "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master
