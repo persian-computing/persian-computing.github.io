@@ -4,6 +4,7 @@ We maintain an archive of important references related to Persian Computing, to 
 and development. These copies are stored with no changes to the content and minimizing changes in
 looks as much as possible.
 
+-   [Articles](Articles/)
 -   [The FarsiWeb Project](FarsiWeb-Project/)
 -   [Sharif FarsiWeb, Inc.](Sharif-FarsiWeb-Inc/)
 -   [Institute of Standards and Industrial Research of Iran](ISIRI/)
