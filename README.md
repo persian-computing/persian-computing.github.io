@@ -25,7 +25,7 @@ admin ([@behnam](https://github.com/behnam/)) if you have any problems.
 
 ## The Mailing Lists
 
-We use mailing lists main announcements and discussions.
+We use mailing lists for announcements and discussions.
 
 ### In English (به زبان انگلیسی)
 
